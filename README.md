@@ -29,7 +29,7 @@ The game contains four ships:
 - Destroyer — length 3
 - Frigate — length 2
 
-## How to Play
+ How to Play
 
 When prompted, enter a row using a letter from A to J and a column using a number from 1 to 10.
 
