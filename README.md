@@ -51,7 +51,7 @@ When placing a ship, enter a direction:
 
 The game continues until all ships belonging to one side have been destroyed.
 
-## Game Results
+ Game Results
 
 After a game is completed, the result is saved to:
 
@@ -77,7 +77,7 @@ Compile the file using the following format :
 
 The program can then be run using:
 
-bash
+
 .\battleship
 
 
