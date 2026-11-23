@@ -1,86 +1,30 @@
- Battleship Game
+Test Cases
 
-A console-based Battleship game written in C.
+Test Case 1: Valid Ship Placement   
 
- Description
-
-This project is a Battleship game where the player plays against the computer on a 10×10 board.
-
-The player places their ships on the board by entering coordinates and directions. The computer places its ships randomly. Players then take turns attacking the opponent's board until all of one player's ships have been sunk.
-
- Features
-
-- 10×10 game board
-- Player-controlled ship placement
-- Random computer ship placement
-- Player attacks using coordinates
-- Computer randomly chooses attack coordinates
-- Hit and miss detection
-- Ship sinking detection
-- Displays the winner
-- Saves game results to a match history file
-
- Ships
-
-The game contains four ships:
-
-- Aircraft Carrier — length 5
-- Cruiser — length 4
-- Destroyer — length 3
-- Frigate — length 2
-
- How to Play
-
-When prompted, enter a row using a letter from A to J and a column using a number from 1 to 10.
-
-For example:
+<img width="1626" height="945" alt="image" src="https://github.com/user-attachments/assets/2f409b43-6995-4597-b27d-729e9b5e96a1" />
 
 
-Row: B
-Column: 4
 
 
-When placing a ship, enter a direction:
+Test Case 2: Ship Placement Outside the Board
 
+Test Case 3: Overlapping Ships
 
-0 = Right
-1 = Down
-2 = Left
-3 = Up
+Test Case 4: Invalid Coordinates
 
+Test Case 5: Successful Hit
 
-The game continues until all ships belonging to one side have been destroyed.
+Test Case 6: Missed Attack
 
- Game Results
+Test Case 7: Ship of Length 3 Sunk
 
-After a game is completed, the result is saved to:
+Test Case 8: Ship of Length 4 Sunk
 
+Test Case 9: Ship of Length 5 Sunk
 
-match history.txt
+Test Case 10: Repeated Attack
 
+Test Case 11: Game Over
 
-This file records whether the player or the computer won.
-
- Requirement
-
-This program is designed to run on Windows because it uses Windows-specific console functionality such as `windows.h` and `Sleep()`.
-
-A C compiler is required to compile the program.
-
- Compilation
-
-Compile the file using the following format : 
-
-
- 
- gcc filename.c -o battleship.exe
-
-The program can then be run using:
-
-
-.\battleship
-
-
- Author
-
-Abdul Moiz 26k1012
+Test Case 12: Match History
