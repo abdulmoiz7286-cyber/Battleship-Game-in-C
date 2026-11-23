@@ -476,7 +476,7 @@ void turn_change();
 void manipulate_arrlocation();
 // Updates both boards in-place and prints the outcome statement on the spot
 void render_live_boards(const char *turn_title, const char *statement) {//pop
-reset_cursor();//pop
+clear_screen();
 printf("%s                                        \n", turn_title);
 printf("--- ENEMY WATERS ---\n");//pop
 displaycpuboard(arr_location);//pop
@@ -563,7 +563,7 @@ render_live_boards("-------------Your turn----------------", outcome_msg);
 render_live_boards("**----------------enemy turn-----------------", outcome_msg);
 }
 Sleep(2500);
-clear_screen();
+
 } while (!check_allship_sunk(player_no) && turn_change_flag == false);
 if (check_allship_sunk(player_no)) {
 game_end = true;
